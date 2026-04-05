@@ -7,7 +7,7 @@
 #include "std_msgs/msg/string.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 
-constexpr size_t MAX_NODES = 128;
+constexpr size_t MAX_NODES = 256;
 struct Hyperedge {
     std::bitset<MAX_NODES> subjects;
     std::bitset<MAX_NODES> objects;
