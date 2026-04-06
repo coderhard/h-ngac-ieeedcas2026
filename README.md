@@ -114,7 +114,7 @@ Outputs `ngac_latency_results_v2.pdf` — the scatter plot used as Figure 1 in t
 | Memory footprint | < 10 KB |
 | Samples | N = 1,462 |
 
-Experiment 2 was collected on a quieter host with reduced background WSL2 interference, yielding ~3× lower mean and ~6× lower p99 relative to Experiment 1. Both runs use identical gatekeeper code; the difference reflects host-OS scheduling noise rather than algorithm variance.
+Experiment 2 was collected on a quieter host with reduced background WSL2 interference, yielding ~3× lower mean and ~6× lower p99 relative to Experiment 1. The difference reflects host-OS scheduling noise rather than algorithm variance. Table 1 results were reported in the paper and reflected the more modest runs done on apparently a noisier laptop environment.
 
 ---
 
